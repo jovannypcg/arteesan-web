@@ -1,8 +1,16 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import todosList from './todosList';
+import template from './../templates/home.html';
 
-angular.module('home', [
-  angularMeteor,
-  todosList.name
-]);
+class HomeCtrl {
+    constructor() {
+      console.log('home...');
+    }
+}
+
+export default angular.module('home', [
+  angularMeteor
+]).component('home', {
+    templateUrl: 'client/templates/home.html',
+    controller: HomeCtrl
+});
