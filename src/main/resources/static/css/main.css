@@ -114,31 +114,31 @@ form.searchbox_1 input{
 }
 
 form.searchbox_1 ::-webkit-input-placeholder {
-   color: #fff;
-   font-weight: normal;
-   text-transform: uppercase;
-   font-size: .8em;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: .8em;
 }
 
 form.searchbox_1 :-moz-placeholder { /* Firefox 18- */
-   color: #fff;
-   font-weight: normal;
-   text-transform: uppercase;
-   font-size: .8em;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: .8em;
 }
 
 form.searchbox_1 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;
-   font-weight: normal;
-   text-transform: uppercase;
-   font-size: .8em;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: .8em;
 }
 
 form.searchbox_1 :-ms-input-placeholder {
-   color: #fff;
-   font-weight: normal;
-   text-transform: uppercase;
-   font-size: .8em;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: .8em;
 }
 
 #menuInfo ul{
@@ -298,7 +298,7 @@ form.searchbox_1 :-ms-input-placeholder {
     font-size: 1.2em;}
 
 #menuBottomLista:last-child h1{
-   border-right: 3px solid #a3a3a3;}
+    border-right: 3px solid #a3a3a3;}
 
 
 #menuBottomLista ul{
@@ -340,9 +340,9 @@ form.searchbox_1 :-ms-input-placeholder {
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
 
 }
 
