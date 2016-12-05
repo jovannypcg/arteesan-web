@@ -48,3 +48,8 @@
         border-top:0 none;
     }
 }
+
+.fix-to-top {
+    position: fixed;
+    width: 100%
+}
