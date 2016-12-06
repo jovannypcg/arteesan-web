@@ -12,6 +12,7 @@ angular
   .module('app', [
     'app.users',
     'app.headr',
+    'app.signup',
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -32,7 +33,9 @@ angular
         controllerAs: 'about'
       })
       .when('/signup', {
-        templateUrl: 'components/signup/view.html'
+        templateUrl: 'components/signup/view.html',
+        controller: 'signupController',
+        controllerAs: 'signupCtrl'
       })
       .otherwise({
         redirectTo: '/'
