@@ -1,7 +1,7 @@
 let signup = angular.module('app.signup', []);
 
 signup.controller('signupController',
-        ['$http', '$location', function($http, $location) {
+        ['$http', '$location', 'authService', function($http, $location, authService) {
     this.name = "";
     this.email = "";
     this.password = "";
